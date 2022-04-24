@@ -1,0 +1,36 @@
+.Post {
+    padding: 3rem;
+    background: #f4f4f4; }
+    .Post-main {
+      padding: 3rem;
+      background: #fff; }
+      .Post-head {
+        text-align: center;
+        color: #216799;
+        font-size: 1.5rem;
+        padding-bottom: 1rem; }
+      .Post-body p {
+        font-size: 1.2rem;
+        padding-bottom: 1rem; }
+        .post-image{
+          margin: 10px 15%;
+        }
+        
+  
+  @media (max-width: 550px) {
+    .Post {
+      padding: 2rem; }
+      .Post-main {
+        padding: 2rem; } }
+  
+  @media (max-width: 440px) {
+    .Post {
+      padding: 1rem; }
+      .Post-main {
+        padding: 1rem; }
+        .Post-head {
+          font-size: 1.2rem; }
+        .Post-body p {
+          font-size: 1.05rem; } }
+
+  

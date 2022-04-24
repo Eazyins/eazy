@@ -1,0 +1,30 @@
+.privacy {
+  padding: 3rem;
+  background: #f4f4f4; }
+  .privacy-policy {
+    padding: 3rem;
+    background: #fff; }
+    .privacy-policy-head {
+      text-align: center;
+      color: #216799;
+      font-size: 1.5rem;
+      padding-bottom: 1rem; }
+    .privacy-policy-body p {
+      font-size: 1.2rem;
+      padding-bottom: 1rem; }
+
+@media (max-width: 550px) {
+  .privacy {
+    padding: 2rem; }
+    .privacy-policy {
+      padding: 2rem; } }
+
+@media (max-width: 440px) {
+  .privacy {
+    padding: 1rem; }
+    .privacy-policy {
+      padding: 1rem; }
+      .privacy-policy-head {
+        font-size: 1.2rem; }
+      .privacy-policy-body p {
+        font-size: 1.05rem; } }
